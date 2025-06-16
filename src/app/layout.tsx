@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Amlan Das - Personal Portfolio',
-  description: 'A personal portfolio website built with Next.js and Tailwind CSS, showcasing web development and design skills.',
+  description: 'This is my personal space to showcase my journey, projects, and learnins',
 };
 
 export default function RootLayout({
