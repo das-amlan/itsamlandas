@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Amlan Das - Personal Portfolio',
-  description: 'This is my personal space to showcase my journey, projects, and learnins',
+  description: 'This is my personal space to showcase my journey, projects, and learnings',
 };
 
 export default function RootLayout({
