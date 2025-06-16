@@ -6,7 +6,7 @@ import { Footer } from '@/components/layout/Footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Static Showcase - Personal Portfolio',
+  title: 'Amlan Das - Personal Portfolio',
   description: 'A personal portfolio website built with Next.js and Tailwind CSS, showcasing web development and design skills.',
 };
 
