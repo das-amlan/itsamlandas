@@ -6,12 +6,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function ContactPage() {
-  const emailAddress = "your.email@example.com"; // Replace with your actual email
+  const emailAddress = "itsamlandas@gmail.com"; // Replace with your actual email
   
   const socialLinks = [
-    { name: "LinkedIn", href: "https://linkedin.com/in/yourprofile", icon: Linkedin, hint: "professional network" },
-    { name: "GitHub", href: "https://github.com/yourusername", icon: Github, hint: "code repository" },
-    { name: "Twitter", href: "https://twitter.com/yourusername", icon: Twitter, hint: "social updates" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/das-amlan/", icon: Linkedin, hint: "professional network" },
+    { name: "GitHub", href: "https://github.com/das-amlan", icon: Github, hint: "code repository" },
+    //{ name: "Twitter", href: "https://twitter.com/yourusername", icon: Twitter, hint: "social updates" },
     // { name: "Dribbble", href: "https://dribbble.com/yourusername", icon: Dribbble, hint: "design portfolio" },
   ];
 
@@ -29,7 +29,7 @@ export default function ContactPage() {
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
         <div className="flex justify-center">
             <Image 
-                src="https://placehold.co/500x400.png"
+                src="/AmlanDasContact.jpeg"
                 alt="Contact illustration"
                 width={500}
                 height={400}

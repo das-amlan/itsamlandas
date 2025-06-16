@@ -4,27 +4,30 @@ import Image from 'next/image'; // For the "no projects" state
 
 const projects = [
   {
-    title: "AI-Powered Content Generator",
-    description: "A web application utilizing generative AI to create engaging marketing copy and blog posts. Features a clean interface and real-time suggestions.",
-    imageUrl: "https://placehold.co/600x400.png?t=ai-content",
-    tags: ["Next.js", "Tailwind CSS", "TypeScript", "OpenAI API", "Vercel"],
-    projectUrl: "#", // Replace with actual URL
-    repoUrl: "#",   // Replace with actual URL
-    imageHint: "artificial intelligence writing"
+    title: "Apple Leaf Disease Detection using Deep Learning (CNN & Transfer Learning)",
+    description: "Building and evaluating deep learning models for the detection and classification of various diseases in apple leaves using image data. The goal is to accurately identify different disease types to aid in early diagnosis and management.",
+    imageUrl: "appleLeaves.png",
+    tags: ["Python", "pytorch", "Computer Vision", "ResNet50", "CNN"],
+    //projectUrl: "#", // Replace with actual URL
+    repoUrl: "https://github.com/das-amlan/Apple-leaf-disease-detection",   // Replace with actual URL
+    imageHint: "apple leaves disease"
   },
   {
-    title: "E-commerce Analytics Dashboard",
-    description: "A comprehensive dashboard for an e-commerce platform, providing insights into sales, customer behavior, and inventory management.",
+    title: "VibeCheck - Text Summarizer & Sentiment Analyzer",
+    description: "VibeCheck is a simple yet powerful web application that utilizes Natural Language Processing (NLP) to summarize text and analyze its sentiment.",
     imageUrl: "https://placehold.co/600x400.png?t=ecommerce-dashboard",
-    tags: ["React", "Chart.js", "Node.js", "Express", "MongoDB"],
-    projectUrl: "#",
-    imageHint: "data analytics chart"
+    tags: ["Streamlit", "Transformers", "DistilBERT", "NLP", "Sentiment Analysis"],
+    projectUrl: "vibecheckImage.png",
+    repoUrl: "https://github.com/das-amlan/VibeCheck---Text-Summarizer-Sentiment-Analyzer?tab=readme-ov-file",
+    imageHint: "Summarizer & Sentiment Analyzer"
   },
   {
-    title: "Task Management App Redesign",
-    description: "Led the UX/UI redesign for a popular task management application, focusing on improving user flow and introducing new collaboration features.",
+    title: "PDF Image Extractor",
+    description: "This repository contains the Streamlit-based version of the PDF Image Extractor. It allows users to upload PDF files, extract images from them, and display the extracted images directly in the web application.",
     imageUrl: "https://placehold.co/600x400.png?t=task-app",
     tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
+    projectUrl: "vibecheckImage.png",
+    repoUrl: "https://github.com/das-amlan/VibeCheck---Text-Summarizer-Sentiment-Analyzer?tab=readme-ov-file",
     imageHint: "mobile app interface"
   },
   {

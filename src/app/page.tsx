@@ -11,8 +11,8 @@ export default function HomePage() {
       <section className="w-full max-w-4xl mb-16 md:mb-24">
         <div className="mb-8">
             <Image 
-                src="https://placehold.co/128x128.png" 
-                alt="Avatar" 
+                src="/AmlanDasHome.JPG" 
+                alt="Amlan Das" 
                 width={128} 
                 height={128} 
                 className="rounded-full shadow-lg mx-auto border-4 border-background"
@@ -20,7 +20,7 @@ export default function HomePage() {
             />
         </div>
         <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary animate-text-bg-change">
-          Your Name
+          Amlan Das
         </h1>
         <style jsx global>{`
           @keyframes text-bg-change {
@@ -34,7 +34,7 @@ export default function HomePage() {
           }
         `}</style>
         <p className="font-headline text-xl sm:text-2xl md:text-3xl text-muted-foreground mb-10">
-          Web Developer <span className="text-accent mx-1">|</span> Designer <span className="text-accent mx-1">|</span> Problem Solver
+        Data Storyteller <span className="text-accent mx-1">|</span> Code & Curiosity <span className="text-accent mx-1">|</span> Continuous Learner
         </p>
         <Button asChild size="lg" className="group transition-all duration-300 ease-in-out hover:shadow-lg hover:bg-accent hover:text-accent-foreground transform hover:scale-105">
           <Link href="/portfolio">
@@ -50,8 +50,7 @@ export default function HomePage() {
           <h2 className="font-headline text-3xl font-semibold text-primary">Welcome!</h2>
         </div>
         <p className="text-lg text-foreground/80 leading-relaxed text-center">
-          Hi, I'm [Your Name], a passionate and creative individual exploring the dynamic world of web development and design. 
-          This is my personal space to showcase my journey, projects, and evolving skills. I'm excited to share what I've been working on. 
+          Hi, I'm Amlan Das, a data analyst with a knack for turning complex data into clear solutions. Beyond the numbers, I'm passionate about exploring new tech, coding, and diving into the worlds of science fiction, photography, and cultural discovery. This is my personal space to showcase my journey, projects, and evolving skills. I'm excited to share what I've been working on. <br></br>
           Feel free to look around and connect!
         </p>
       </section>

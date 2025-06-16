@@ -37,7 +37,7 @@ export function Header() {
     <header className="bg-background/80 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-border">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-headline font-bold text-primary hover:text-accent transition-colors duration-300">
-          Your Name
+          Amlan Das
         </Link>
         
         <nav className="hidden md:flex space-x-6 items-center">
