@@ -1,4 +1,4 @@
-# Amlan Das - Personal Portfolio (NextJS & Firebase Studio)
+# Personal Portfolio
 
 This is my personal portfolio website, built with **Next.js** and deployed using **Firebase App Hosting**. The primary goal of this project is to showcase my skills, highlight my past projects, and provide a clear way for potential clients or collaborators to contact me.
 
