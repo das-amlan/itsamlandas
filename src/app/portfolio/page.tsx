@@ -15,28 +15,68 @@ const projects = [
   {
     title: "VibeCheck - Text Summarizer & Sentiment Analyzer",
     description: "VibeCheck is a simple yet powerful web application that utilizes Natural Language Processing (NLP) to summarize text and analyze its sentiment.",
-    imageUrl: "https://placehold.co/600x400.png?t=ecommerce-dashboard",
+    imageUrl: "vibecheckImage.png",
     tags: ["Streamlit", "Transformers", "DistilBERT", "NLP", "Sentiment Analysis"],
-    projectUrl: "vibecheckImage.png",
+    projectUrl: "https://vibecheck.streamlit.app/",
     repoUrl: "https://github.com/das-amlan/VibeCheck---Text-Summarizer-Sentiment-Analyzer?tab=readme-ov-file",
     imageHint: "Summarizer & Sentiment Analyzer"
   },
   {
     title: "PDF Image Extractor",
     description: "This repository contains the Streamlit-based version of the PDF Image Extractor. It allows users to upload PDF files, extract images from them, and display the extracted images directly in the web application.",
-    imageUrl: "https://placehold.co/600x400.png?t=task-app",
-    tags: ["UX Design", "UI Design", "Figma", "User Research", "Prototyping"],
-    projectUrl: "vibecheckImage.png",
-    repoUrl: "https://github.com/das-amlan/VibeCheck---Text-Summarizer-Sentiment-Analyzer?tab=readme-ov-file",
-    imageHint: "mobile app interface"
+    imageUrl: "pdfImageExt.png",
+    tags: ["Python", "Streamlit", "Flask", "HTML"],
+    projectUrl: "https://pdfimageextractor.streamlit.app/",
+    repoUrl: "https://github.com/das-amlan/PDF-Image-Extractor-V2"
+    //repoUrl: "https://github.com/das-amlan/PDF_Image_Extractor_Web_App"
   },
   {
-    title: "Community Forum Platform",
-    description: "Developed a full-stack community forum platform with features like threaded discussions, user profiles, and moderation tools.",
-    imageUrl: "https://placehold.co/600x400.png?t=forum-platform",
-    tags: ["Python", "Django", "PostgreSQL", "Bootstrap", "Heroku"],
-    repoUrl: "#",
-    imageHint: "social community network"
+    title: "PowerBI-Dashboards",
+    description: "A collection of Power BI dashboards demonstrating proficiency in data modeling, DAX, and visualization techniques.",
+    imageUrl: "pbiPro.png",
+    tags: ["Power BI", "DAX", "Visualization", "BI"],
+    repoUrl: "https://github.com/das-amlan/PowerBI-Dashboards",
+    imageHint: "Power BI Dashboard"
+  },
+  {
+    title: "Stock Price Forecasting using the ARIMA model",
+    description: "Develop Stock price forecasting using the ARIMA model. The model was tested on three stocks: EXX5, IQQE, and IUS4.",
+    imageUrl: "stkPrice.png",
+    tags: ["Python", "ARIMA", "Time Series", "Forecasting"],
+    repoUrl: "https://github.com/das-amlan/Stock-Price-Forecasting",
+    imageHint: "Stock Price Forecasting"
+  },
+  {
+    title: "Predicting Customer Insurance Costs: Uncovering the Drivers of Insurance Costs with XAI",
+    description: "Predict customer healthcare costs using machine learning and explainable AI to uncover the key drivers of insurance costs.",
+    imageUrl: "shapleyValue.png",
+    tags: ["Machine Learning", "XAI", "Explainable AI", "Random Forest"],
+    repoUrl: "https://github.com/das-amlan/Predicting-Customer-Insurance-Costs-Uncovering-the-Drivers-of-Insurance-Costs-with-XAI",
+    imageHint: "Insurance Cost Prediction"
+  },
+  {
+    title: "Forest Fire Prediction",
+    description: "Exploratory Data Analysis (EDA) and implementation of Machine Learning algorithms on the Algerian forest fires dataset.",
+    imageUrl: "forestFire.png",
+    tags: ["Explatory Data Analysis (EDA)", "Machine Learning", "XGBoost"],
+    repoUrl: "https://github.com/das-amlan/Forest-Fire-Prediction",
+    imageHint: "Forest Fire Prediction"
+  },
+  {
+    title: "Movie Recommendation System",
+    description: "End To End Machine Learning Implementation of a movie recommendation system.",
+    imageUrl: "mveRec.jpg",
+    tags: ["Recommender System", "Scikit-learn", "NLTK", "NLP"],
+    repoUrl: "https://github.com/das-amlan/movieRecommendationSystem",
+    imageHint: "Movie Recommendation System"
+  },
+  {
+    title: "Web Development Project",
+    description: "My first web development project. I aimed to create a modern and stylish website using HTML, CSS, and Bootstrap.",
+    imageUrl: "webDev.png",
+    tags: ["HTML", "CSS", "Bootstrap", "Web Development", "JavaScript"],
+    repoUrl: "https://github.com/das-amlan/First-Web-Development-Project----Tajam",
+    imageHint: "Web Development Project"
   },
 ];
 
