@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles, QuoteIcon } from 'lucide-react'; // Added QuoteIcon for potential use
 import Image from 'next/image';
 
 export default function HomePage() {
@@ -53,6 +53,19 @@ export default function HomePage() {
           Hi, I'm Amlan Das, a data analyst with a knack for turning complex data into clear solutions. Beyond the numbers, I'm passionate about exploring new tech, coding, and diving into the worlds of science fiction, photography, and cultural discovery. This is my personal space to showcase my journey, projects, and evolving skills. I'm excited to share what I've been working on. <br></br>
           Feel free to look around and connect!
         </p>
+      </section>
+
+      <section className="w-full max-w-2xl mt-16 md:mt-24 text-center">
+        <figure>
+          <blockquote className="font-headline text-3xl md:text-4xl text-primary italic mb-4 relative px-8">
+            <QuoteIcon className="absolute top-0 left-0 transform -translate-x-2 -translate-y-2 h-8 w-8 text-accent opacity-50" />
+            Stay hungry. Stay foolish.
+            <QuoteIcon className="absolute bottom-0 right-0 transform translate-x-2 translate-y-2 h-8 w-8 text-accent opacity-50 scale-x-[-1] scale-y-[-1]" />
+          </blockquote>
+          <figcaption className="text-lg text-muted-foreground">
+            - Steve Jobs
+          </figcaption>
+        </figure>
       </section>
     </div>
   );
