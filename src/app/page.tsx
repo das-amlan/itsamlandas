@@ -8,6 +8,19 @@ import Image from 'next/image';
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center text-center py-10 md:py-16 lg:py-24">
+      <section className="w-full max-w-2xl mb-16 md:mb-24 text-center">
+        <figure>
+          <blockquote className="font-headline text-3xl md:text-4xl text-primary italic mb-4 relative px-8">
+            <QuoteIcon className="absolute top-0 left-0 transform -translate-x-2 -translate-y-2 h-8 w-8 text-accent opacity-50" />
+            Stay hungry. Stay foolish.
+            <QuoteIcon className="absolute bottom-0 right-0 transform translate-x-2 translate-y-2 h-8 w-8 text-accent opacity-50 scale-x-[-1] scale-y-[-1]" />
+          </blockquote>
+          <figcaption className="text-lg text-muted-foreground">
+            - Steve Jobs
+          </figcaption>
+        </figure>
+      </section>
+
       <section className="w-full max-w-4xl mb-16 md:mb-24">
         <div className="mb-8">
             <Image 
@@ -42,19 +55,6 @@ export default function HomePage() {
             <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
         </Button>
-      </section>
-
-      <section className="w-full max-w-2xl mb-16 md:mb-24 text-center">
-        <figure>
-          <blockquote className="font-headline text-3xl md:text-4xl text-primary italic mb-4 relative px-8">
-            <QuoteIcon className="absolute top-0 left-0 transform -translate-x-2 -translate-y-2 h-8 w-8 text-accent opacity-50" />
-            Stay hungry. Stay foolish.
-            <QuoteIcon className="absolute bottom-0 right-0 transform translate-x-2 translate-y-2 h-8 w-8 text-accent opacity-50 scale-x-[-1] scale-y-[-1]" />
-          </blockquote>
-          <figcaption className="text-lg text-muted-foreground">
-            - Steve Jobs
-          </figcaption>
-        </figure>
       </section>
 
       <section className="w-full max-w-3xl p-8 bg-card rounded-xl shadow-lg">
