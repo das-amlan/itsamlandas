@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Sparkles, QuoteIcon } from 'lucide-react'; // Added QuoteIcon for potential use
+import { ArrowRight, Sparkles, QuoteIcon } from 'lucide-react';
 import Image from 'next/image';
 
 export default function HomePage() {
@@ -44,18 +44,7 @@ export default function HomePage() {
         </Button>
       </section>
 
-      <section className="w-full max-w-3xl p-8 bg-card rounded-xl shadow-lg">
-        <div className="flex items-center justify-center mb-4">
-          <Sparkles className="h-8 w-8 text-accent mr-3" />
-          <h2 className="font-headline text-3xl font-semibold text-primary">Welcome!</h2>
-        </div>
-        <p className="text-lg text-foreground/80 leading-relaxed text-center">
-          Hi, I'm Amlan Das, a data analyst with a knack for turning complex data into clear solutions. Beyond the numbers, I'm passionate about exploring new tech, coding, and diving into the worlds of science fiction, photography, and cultural discovery. This is my personal space to showcase my journey, projects, and evolving skills. I'm excited to share what I've been working on. <br></br>
-          Feel free to look around and connect!
-        </p>
-      </section>
-
-      <section className="w-full max-w-2xl mt-16 md:mt-24 text-center">
+      <section className="w-full max-w-2xl mb-16 md:mb-24 text-center">
         <figure>
           <blockquote className="font-headline text-3xl md:text-4xl text-primary italic mb-4 relative px-8">
             <QuoteIcon className="absolute top-0 left-0 transform -translate-x-2 -translate-y-2 h-8 w-8 text-accent opacity-50" />
@@ -66,6 +55,17 @@ export default function HomePage() {
             - Steve Jobs
           </figcaption>
         </figure>
+      </section>
+
+      <section className="w-full max-w-3xl p-8 bg-card rounded-xl shadow-lg">
+        <div className="flex items-center justify-center mb-4">
+          <Sparkles className="h-8 w-8 text-accent mr-3" />
+          <h2 className="font-headline text-3xl font-semibold text-primary">Welcome!</h2>
+        </div>
+        <p className="text-lg text-foreground/80 leading-relaxed text-center">
+          Hi, I'm Amlan Das, a data analyst with a knack for turning complex data into clear solutions. Beyond the numbers, I'm passionate about exploring new tech, coding, and diving into the worlds of science fiction, photography, and cultural discovery. This is my personal space to showcase my journey, projects, and evolving skills. I'm excited to share what I've been working on. <br></br>
+          Feel free to look around and connect!
+        </p>
       </section>
     </div>
   );
